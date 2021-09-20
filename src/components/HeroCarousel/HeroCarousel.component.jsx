@@ -1,12 +1,6 @@
 import React from "react";
 import HeroSlider from "react-slick";
-
 import { NextArrow,PrevArrow } from "./Arrows.component";
-// Import css files
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
-
-
 
 const HeroCarousal = () => {
   const settingsLG = {
