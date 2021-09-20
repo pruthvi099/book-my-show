@@ -1,6 +1,6 @@
 import React from 'react'
 
-const MoveInfo=()=> {
+const MovieInfo=()=> {
     return (
         <>
           <div className="flex flex-col gap-3 lg:gap-8">
@@ -23,7 +23,7 @@ const MoveInfo=()=> {
                      Rent ₹149
                  </button>
                  <button className="bg-red-500 w-full py-3 text-white font-semibold rounded-lg">
-                     Buy ₹149
+                     Buy ₹649
                  </button>
              </div>
             </div>
@@ -32,4 +32,4 @@ const MoveInfo=()=> {
     )
 }
 
-export default MoveInfo
+export default MovieInfo
