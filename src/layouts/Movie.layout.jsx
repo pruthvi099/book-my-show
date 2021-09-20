@@ -1,15 +1,14 @@
-import axios from "axios";
-import React, { useEffect, useContext } from "react";
+
 
 
 // Components
-import Navbar from "../components/Navbar/navbar.component";
+import MovieNavbar from "../components/Navbar/movie.Navbar.component";
 
 const MovieLayout = (props) => {
  
   return (
     <>
-      <Navbar />
+      <MovieNavbar />
       {props.children}
     </>
   );
