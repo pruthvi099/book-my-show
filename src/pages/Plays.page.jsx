@@ -1,5 +1,5 @@
 import React from 'react'
-import PlaysFilter from '../components/Filters/PlayFilter.component';
+import PlaysFilter from '../components/PlaysFilters/PlayFilter.component';
 import Poster from '../components/Poster/Poster.component';
 
 const Plays=()=> {

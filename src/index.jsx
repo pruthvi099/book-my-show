@@ -4,13 +4,16 @@ import './index.css';
 import { BrowserRouter } from 'react-router-dom';
 
 import App from './App';
+import MovieProvider from './context/movie.context';
 
 
 
 ReactDOM.render(
   <React.StrictMode>
     <BrowserRouter>
+    <MovieProvider>
       <App />
+    </MovieProvider>
     </BrowserRouter>
   </React.StrictMode>,
   document.getElementById('root')
